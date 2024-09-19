@@ -1,0 +1,71 @@
+.timer {
+  padding: 0;
+  margin: 0;
+  background: rgb(0, 0, 0);
+  overflow-x: hidden;
+}
+
+.timer_writeUp {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.timer_writeUp p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.timer-section {
+  background: rgba(13, 11, 52, 1);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.launch {
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 78.02px;
+  text-align: center;
+  color: rgba(230, 0, 25, 1);
+  cursor: pointer;
+}
+
+.time-set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.timeFn {
+  background: rgba(3, 7, 8, 1);
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.timeFn p {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.timeFn span {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(230, 0, 25, 1);
+}
