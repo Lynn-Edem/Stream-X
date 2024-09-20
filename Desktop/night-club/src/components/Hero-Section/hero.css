@@ -1,0 +1,65 @@
+
+.container__hero {
+    background: url('../../assets//nightclub.png') no-repeat center center/cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .inner__hero {
+    text-align: center;
+  }
+  
+  .hero__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text__hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color:#E60019;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav__container {
+    margin-top: 20px;
+  }
+  .hero__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    
+   ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: background-color 0.3s;
+    width: 80%;
+    padding: .5rem;
+    background: rgba(44, 44, 44, 0.6554 );
+    border-radius: 10px;
+    li {
+        display: inline;
+        a{
+            color: #FFFFFF;
+            text-decoration: none;
+            transition: color 0.3s;
+            text-transform:capitalize;
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 39.01px;
+            text-align: left;
+
+          }
+      }
+      
+  }
+  }
+  
