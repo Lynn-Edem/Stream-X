@@ -55,37 +55,46 @@ font-weight: 500;
 line-height: 44.81px;
 text-align: center;
 line-height: 1.9rem;
-display: block;
+/* background-color: red; */
   }
   
   .subscription-form {
     justify-content: center;
-    margin-top: 10px;
+    margin: 25px 0;
   }
   
   .email-input {
     display: block;
     padding: 10px;
+    min-width: none;
     width: 300px;
     border-radius: 5px;
     border: none;
-    margin-right: 10px;
+    margin: 0 auto;
   }
   
   .submit-button {
-    padding: 10px 20px;
-    background-color: #ff0000;
+    margin-top:10px ;
     border: none;
-    border-radius: 5px;
-    color: #fff;
+    color: #E60019;
+    background-color: #000000;
     cursor: pointer;
+    min-width: 300px;
+    font-family:" Montserrat";
+    font-size: 16px;
+    line-height: 43.88px;
+    text-align: center;
+    transition: all 0.8s;
+    border: .02px solid #9e9b9b;
+    border-radius: 5px;
+    overflow: hidden;
   }
   
   .submit-button:hover {
     background-color: #d40000;
+    color: #fff;
   }
   
-  /* Footer Privacy Policy */
   .privacy-policy {
     padding: 1.9rem 0;
     display: block;
