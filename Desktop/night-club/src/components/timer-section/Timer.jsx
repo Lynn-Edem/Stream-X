@@ -10,7 +10,7 @@ const Timer = () => {
   let interval = useRef(null);
 
   const startTimer = () => {
-    const countDownDate = new Date("2024-09-21T00:00:00").getTime();
+    const countDownDate = new Date("2024-12-21T00:00:00").getTime();
 
     interval.current = setInterval(() => {
       const now = new Date().getTime();
@@ -50,7 +50,7 @@ const Timer = () => {
   return (
     <div className="timer">
       <div className="timer_writeUp">
-        <p>
+        <p className="description">
           Explore the hottest events, exclusive VIP access, and everything you
           need for the ultimate night out. Join the party, discover the vibe,
           and get ready to dance the night away
@@ -60,19 +60,19 @@ const Timer = () => {
           <h2 className="launch">Lauching soon...</h2>
           <section className="time-set">
             <div className="timeFn">
-              <p>{timerDays}</p>
+              <p className="setTime">{timerDays}</p>
               <span>Days</span>
             </div>
             <div className="timeFn">
-              <p>{timerHours}</p>
+              <p className="setTime">{timerHours}</p>
               <span>Hours</span>
             </div>
             <div className="timeFn">
-              <p>{timerMinutes}</p>
+              <p className="setTime">{timerMinutes}</p>
               <span>Minutes</span>
             </div>
             <div className="timeFn">
-              <p>{timerSeconds}</p>
+              <p className="setTime">{timerSeconds}</p>
               <span>Seconds</span>
             </div>
           </section>

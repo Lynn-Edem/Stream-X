@@ -1,6 +1,7 @@
 import React from 'react';
 import './hero.css';
 import NAVLINK from '../../utils/nav';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
                 <ul>
                   {NAVLINK.map(item => (
                     <li key={item.id}>
-                      <a href={item.to}>{item.label}</a>
+                      <Link href={item.to}>{item.label}</Link>
                     </li>
                   ))}
                 </ul>

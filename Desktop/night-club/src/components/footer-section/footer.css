@@ -1,0 +1,336 @@
+.footer {
+  background: rgb(0, 0, 0);
+}
+
+.followContact {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding: 30px;
+}
+
+.followContact h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 78.02px;
+  text-align: center;
+}
+
+.social-content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding: 30px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.social-link a {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.88px;
+  text-align: center;
+  color: rgba(255, 23, 68, 1);
+}
+
+.aLink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#iconSocial {
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.club h2 {
+  font-family: Exo;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(254, 255, 255, 1);
+  margin-top: 30px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.address h3 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.88px;
+  text-align: left;
+  color: rgba(255, 23, 68, 1);
+}
+
+.faqSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#priFaq {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-decoration: none;
+  color: rgba(255, 23, 68, 1);
+}
+
+.yearClub {
+  color: rgba(255, 23, 68, 1);
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+}
+
+/* Media query Mobile Responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .social-content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .followContact {
+    padding: 10px;
+  }
+
+  .followContact h1 {
+    font-size: 20px;
+  }
+
+  .social-link a {
+    font-size: 20px;
+  }
+
+  #iconSocial {
+    font-size: 20px;
+  }
+
+  .aLink {
+    gap: 10px;
+  }
+
+  .club h2 {
+    font-size: 20px;
+  }
+
+  .address {
+    gap: 0;
+  }
+
+  .address h3 {
+    font-size: 20px;
+  }
+
+  #priFaq {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .faqSection {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .yearClub {
+    font-size: 12px;
+    line-height: 0;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .social-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .followContact {
+    padding: 10px;
+  }
+
+  .followContact h1 {
+    font-size: 20px;
+  }
+
+  .social-link a {
+    font-size: 20px;
+  }
+
+  #iconSocial {
+    font-size: 20px;
+  }
+
+  .aLink {
+    gap: 10px;
+  }
+
+  .club h2 {
+    font-size: 20px;
+  }
+
+  .address {
+    gap: 0;
+  }
+
+  .address h3 {
+    font-size: 20px;
+  }
+
+  #priFaq {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .faqSection {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .yearClub {
+    font-size: 12px;
+    line-height: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .social-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .followContact {
+    padding: 10px;
+  }
+
+  .followContact h1 {
+    font-size: 20px;
+  }
+
+  .social-link a {
+    font-size: 20px;
+  }
+
+  #iconSocial {
+    font-size: 20px;
+  }
+
+  .aLink {
+    gap: 10px;
+  }
+
+  .club h2 {
+    font-size: 20px;
+  }
+
+  .address {
+    gap: 0;
+  }
+
+  .address h3 {
+    font-size: 20px;
+  }
+
+  #priFaq {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .faqSection {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .yearClub {
+    font-size: 12px;
+    line-height: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .social-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .followContact {
+    padding: 10px;
+  }
+
+  .followContact h1 {
+    font-size: 20px;
+  }
+
+  .social-link a {
+    font-size: 20px;
+  }
+
+  #iconSocial {
+    font-size: 20px;
+  }
+
+  .aLink {
+    gap: 10px;
+  }
+
+  .club h2 {
+    font-size: 20px;
+  }
+
+  .address {
+    gap: 0;
+  }
+
+  .address h3 {
+    font-size: 20px;
+  }
+
+  #priFaq {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .faqSection {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .yearClub {
+    font-size: 12px;
+    line-height: 0;
+  }
+}

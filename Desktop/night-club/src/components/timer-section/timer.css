@@ -14,7 +14,7 @@
   gap: 40px;
 }
 
-.timer_writeUp p {
+.description {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 500;
@@ -54,11 +54,12 @@
   cursor: pointer;
 }
 
-.timeFn p {
+.setTime {
   font-family: "Poppins";
   font-size: 64px;
   font-weight: 900;
   text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
 
 .timeFn span {
@@ -69,3 +70,164 @@
   text-align: center;
   color: rgba(230, 0, 25, 1);
 }
+
+/* Media query Mobile Responsiveness */
+
+@media only screen and (min-width: 920px) {
+  .description {
+    font-size: 24px;
+  }
+
+  .timeFn {
+    padding: 7px 25px;
+  }
+
+  .timer-section {
+    padding: 20px;
+  }
+
+  .launch {
+    font-size: 40px;
+  }
+
+  .setTime {
+    font-size: 24px;
+  }
+
+  .time-set {
+    gap: 30;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+
+  .timeFn {
+    padding: 7px 25px;
+  }
+
+  .timer-section {
+    padding: 20px;
+  }
+
+  .launch {
+    font-size: 40px;
+  }
+
+  .setTime {
+    font-size: 24px;
+  }
+
+  .time-set {
+    gap: 30;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .timer_writeUp {
+    padding: 20px;
+  }
+  .description {
+    font-size: 15px;
+  }
+
+  .timeFn {
+    padding: 5px 10px;
+  }
+
+  .timer-section {
+    padding: 16px;
+  }
+
+  .launch {
+    line-height: 20px;
+    font-size: 24px;
+  }
+
+  .timeFn span {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .time-set {
+    gap: 10px;
+  }
+
+  .setTime {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .timer_writeUp {
+    padding: 20px;
+  }
+  .description {
+    font-size: 13px;
+  }
+
+  .timeFn {
+    padding: 5px 10px;
+  }
+
+  .timer-section {
+    padding: 16px;
+  }
+
+  .launch {
+    line-height: 20px;
+    font-size: 24px;
+  }
+
+  .timeFn span {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .time-set {
+    gap: 10px;
+  }
+
+  .setTime {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .timer_writeUp {
+    padding: 20px;
+  }
+  .description {
+    font-size: 10px;
+  }
+
+  .timeFn {
+    padding: 5px 10px;
+  }
+
+  .timer-section {
+    padding: 16px;
+  }
+
+  .launch {
+    line-height: 20px;
+    font-size: 24px;
+  }
+
+  .timeFn span {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .time-set {
+    gap: 10px;
+  }
+
+  .setTime {
+    font-size: 20px;
+  }
+}
+
+
