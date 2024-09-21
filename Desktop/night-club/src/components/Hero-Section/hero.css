@@ -1,6 +1,6 @@
 
 .container__hero {
-    background: url('../../assets//nightclub.png') no-repeat center center/cover;
+    background: url('./assets/nightclub.png') no-repeat center center/cover;
     min-height: 80vh;
     display: flex;
     justify-content: center;

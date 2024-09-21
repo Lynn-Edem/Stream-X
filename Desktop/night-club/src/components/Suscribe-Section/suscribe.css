@@ -1,0 +1,116 @@
+
+.hero-section {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .hero-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    border-block: 2px solid #ff0000;
+  }
+  
+  .instagram-id {
+    font-size: 2rem;
+    color: #ff0000;
+  }
+  
+  .follow-button {
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .follow-button:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .suscribe-container{
+    padding: .98rem;
+    /* line-height: 0px; */
+  }
+  /* Image section */
+  .image-section {
+    padding: 20px;
+  }
+  
+  .club-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Subscription Section */
+  .subscription-section {
+font-family: "Montserrat", sans-serif;
+font-size: 24.76px;
+font-weight: 500;
+line-height: 44.81px;
+text-align: center;
+line-height: 1.9rem;
+/* background-color: red; */
+  }
+  
+  .subscription-form {
+    justify-content: center;
+    margin: 25px 0;
+  }
+  
+  .email-input {
+    display: block;
+    padding: 10px;
+    min-width: none;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+  }
+  
+  .submit-button {
+    margin-top:10px ;
+    border: none;
+    color: #E60019;
+    background-color: #000000;
+    cursor: pointer;
+    min-width: 300px;
+    font-family:" Montserrat";
+    font-size: 16px;
+    line-height: 43.88px;
+    text-align: center;
+    transition: all 0.8s;
+    border: .02px solid #9e9b9b;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .submit-button:hover {
+    background-color: #d40000;
+    color: #fff;
+  }
+  
+  .privacy-policy {
+    padding: 1.9rem 0;
+    display: block;
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .privacy-policy a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+  
